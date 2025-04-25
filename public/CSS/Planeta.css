@@ -1,0 +1,275 @@
+#TITULO{
+    text-align: center;
+    font-size:100px;
+    margin-top: 2%;
+    text-decoration: underline;
+    background-image: linear-gradient(to bottom, green, greenyellow, yellow);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color:black;
+}
+.CoisaEspacial {
+    margin-top: 2%;
+}
+
+#Terra{
+    color:green;
+    text-align: center;
+    font-size: 70px ;
+    font-style: italic;
+    margin-top: 2%;
+}
+.Planeta{
+    width: 600px;
+    height:auto;
+    margin-left:1%;
+    margin-top: 2%;
+}
+.informacoes{
+    margin:2% 2% 2% 2%;
+    text-align:justify;
+    color:white;
+    font-size:24px;
+}
+.box{
+    margin-top:0.5%;
+    width:auto;
+    margin-left:650px;
+    border-radius: 20px;
+    background-color: black;
+    margin-right: 50px;
+}
+
+#TerraBox{
+    border:3px solid green;
+    margin-top:2% ;
+}
+#StarBox{
+    border:3px solid yellow
+}
+.Estrutura_Da_Terra1{
+    position: absolute;
+    width:500px ;
+    height: 300px;
+    margin-left:5%;
+    margin-top:1%;
+    border:3px solid green;
+}
+.label1{
+    position: absolute;
+    margin-top:17%;
+    margin-left:14%;
+    color:white;
+    font-size:18px;
+    border-radius: 10px;
+}
+
+.Estrutura_Da_Terra2{
+    width:500px ;
+    height: 300px;
+    margin-left: 36% ;
+    margin-top:1%;
+    border:3px solid green;
+}
+.label2{
+    text-align: center;
+    margin-left:77%;
+    margin-top:17.5%;
+    color:white;
+    font-size:18px;
+}
+#Venus{
+    color:darkred;
+    text-align: center;
+    font-size: 70px ;
+    font-style: italic;
+    margin-top:3% ;
+}
+#VenusBox{
+    border:3px solid darkred;
+}
+.Estrutura_De_Venus1{
+    position: absolute;
+    width:500px ;
+    height: 300px;
+    margin-left:5%;
+    margin-top:1%;
+    border:3px solid darkred;
+}
+.Estrutura_De_Venus2{
+    width:500px ;
+    height: 300px;
+    margin-left: 36% ;
+    margin-top:1%;
+    border:3px solid darkred;
+}
+#Mercurio{
+    color: #815e4f;
+    text-align: center;
+    font-size: 70px ;
+    font-style: italic;
+    margin-top:3% ;
+}
+#MercurioBox{
+    border:3px solid #815e4f;
+}
+.Estrutura_De_Mercurio1{
+    position: absolute;
+    width:500px ;
+    height: 300px;
+    margin-left:5%;
+    margin-top:1%;
+    border:3px solid #815e4f;
+}
+.Estrutura_De_Mercurio2{
+    width:500px ;
+    height: 300px;
+    margin-left: 36% ;
+    margin-top:1%;
+    border:3px solid #815e4f;
+}
+#Label2_Saturno{
+    margin-left:77%;
+}
+#Saturno{
+    color: yellow;
+    text-align: center;
+    font-size: 70px ;
+    font-style: italic;
+    margin-top:3% ;
+}
+#SaturnoBox{
+    border:3px solid yellow;
+}
+.Estrutura_De_Saturno1{
+    position: absolute;
+    width:500px ;
+    height: 300px;
+    margin-left:5%;
+    margin-top:1%;
+    border:3px solid yellow;
+}
+.Estrutura_De_Saturno2{
+    width:500px ;
+    height: 300px;
+    margin-left: 36% ;
+    margin-top:1%;
+    border:3px solid yellow;
+}
+#Kepler-22b{
+    color: darkolivegreen;
+    text-align: center;
+    font-size: 70px ;
+    font-style: italic;
+    margin-top:3% ;
+}
+#KeplerBox{
+    border:3px solid darkolivegreen;
+}
+.Estrutura_De_Kepler1{
+    position: absolute;
+    width:500px ;
+    height: 300px;
+    margin-left:5%;
+    margin-top:1%;
+    border:3px solid darkolivegreen;
+}
+.Estrutura_De_Kepler2{
+    width:500px ;
+    height: 300px;
+    margin-left: 36% ;
+    margin-top:1%;
+    border:3px solid darkolivegreen;
+}
+#Label2_Kepler{
+    margin-left:77%;
+}
+#J1407b{
+    color: #bb694f;
+    text-align: center;
+    font-size: 70px ;
+    font-style: italic;
+    margin-top:3% ;
+}
+#J1407bBox{
+    border:3px solid #bb694f;
+}
+.Estrutura_De_J1407b1{
+    position: absolute;
+    width:500px ;
+    height: 300px;
+    margin-left:5%;
+    margin-top:1%;
+    border:3px solid #bb694f;
+}
+.Estrutura_De_J1407b2{
+    width:500px ;
+    height: 300px;
+    margin-left: 36% ;
+    margin-top:1%;
+    border:3px solid #bb694f;
+}
+#Planeta_Interstelar{
+    color: darkslategrey;
+    text-align: center;
+    font-size: 70px ;
+    font-style: italic;
+    margin-top:3% ;
+}
+#InterstelarBox{
+    border:3px solid darkslategrey;
+}
+.Estrutura_De_Interstelar1{
+    position: absolute;
+    width:500px ;
+    height: 300px;
+    margin-left:5%;
+    margin-top:1%;
+    border:3px solid darkslategrey;
+}
+.Estrutura_De_Interstelar2{
+    width:500px ;
+    height: 300px;
+    margin-left: 36% ;
+    margin-top:1%;
+    border:3px solid darkslategrey;
+}
+#Planeta_Interstelar2{
+    margin-left:77%;
+}
+.background {
+    position: fixed;
+}
+
+@media only screen and (max-device-width: 640px) and (min-device-width: 350px){
+    body{
+        margin:0;
+        padding: 0;
+    }
+    .imagens{
+        display: none;
+    }
+    .Planeta{
+        alignment-baseline: top;
+        display:block;
+        width: 100%;
+        height: auto;
+    }
+
+    .informacoes {
+        font-size: 50px;
+    }
+
+    .box{
+        text-align:left;
+        margin-left:0;
+        width:100%;
+    }
+
+}
+@media only screen and (max-device-width: 1800px) and (min-device-width: 641px){
+    .imagens {
+        display: none;
+    }
+}

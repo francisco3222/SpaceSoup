@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Página de Login</title>
+    <link rel="stylesheet" href="./CSS/login.css" >
+    <link rel="stylesheet" href="./CSS/Footer.css">
+</head>
+<body>
+    <div class="login">
+        <form action="/login" method="post">
+            <div id="Soupy_Division">
+                <img align="left" id = "Logo" src="./images/Space%20Soup.png" alt="Soupy-Logo">
+                <img align="left" id = "nome" src="./images/preview.png" alt="Soupy-Logo">
+            </div>
+            <h1>Login</h1>
+            <label>
+                <input type="text" id="user" class="form-control" name="username" placeholder="Nome" required>
+            </label>
+            <br><br>
+            <section>
+                <input type="password" class="form-control" name="password" id="password" placeholder="Palavra-Passe" required>
+                <div id="icon" onclick="Mostrar()"></div>
+            </section>
+            <br><br>
+            <div id="Conta2">
+                <button id="Conta" type="submit">
+                    Entrar
+                </button>
+            </div>
+            <br>
+            <a href="signup">Sign Up</a>
+        </form>
+    </div>
+    <div class="footer">
+        <footer>
+            <p>&copy; 2024 - Universidade da Madeira</p>
+        </footer>
+    </div>
+<script src="./JS/loginScript.js"></script>
+</body>
+</html>

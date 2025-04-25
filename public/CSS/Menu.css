@@ -1,0 +1,205 @@
+.navigation {
+    background-color: darkblue;
+    border-radius: 0 0 30px 30px;
+    padding: 20px;
+    width: auto;
+    text-align: right;
+    position: relative;
+}
+body {
+    z-index: 0;
+    margin: 0;
+    background-image:url("../images/backspace.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+#Logo{
+    width:80px ;
+    flex:none;
+}
+
+#nome {
+    width: 274px;
+    flex: none;
+    margin-left: 1%;
+    transition: ease-in-out 1s;
+}
+
+.topButtonSimple{
+    text-decoration: none;
+    color: white;
+    transition: ease-in-out 0.5s;
+    margin-top: 20px;
+}
+
+.topButtonSimple:hover{
+    color: yellow;
+    text-decoration: none;
+}
+
+.topButton {
+    text-decoration: none;
+    margin-left: 10px;
+    text-align: right;
+    border-radius: 10px;
+    border: 2px solid white;
+    padding: 10px;
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.topButton:hover {
+    border-radius: 25px;
+    color: yellow;
+    border: 2px solid yellow;
+    text-decoration: none;
+}
+
+.text {
+    color:white;
+    font-size:20px;
+    margin-left:1%;
+    position:relative;
+}
+.buttonDrop {
+    color: white;
+    background-color: rgba(42, 42, 243, 0.65);
+    padding: 16px;
+    font-size: 16px;
+    border-radius: 10px;
+    /*border: 2px solid black;*/
+    transition: ease-in-out 0.3s;
+}
+.buttonDrop2 {
+    color: white;
+    background-color: rgba(42, 42, 243, 0.65);
+    padding: 16px;
+    font-size: 16px;
+    border: 2px solid white;
+    transition: ease-in-out 0.3s;
+}
+.buttonDrop3 {
+    color: white;
+    background-color: rgba(42, 42, 243, 0.65);
+    padding: 16px;
+    font-size: 16px;
+    border: 2px solid black;
+    transition: ease-in-out 0.3s;
+}
+
+.menu {
+    text-align: left;
+    position: relative;
+    display: inline-block;
+    right: 0;
+}
+
+.buttonDrops {
+    display: none;
+    position: absolute;
+    background-color: darkblue;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px black;
+    z-index: 3;
+    top: 100%;
+    right: 0;
+}
+.buttonDrops2 {
+    display: none;
+    position: absolute;
+    background-color: darkblue;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px black;
+    z-index: 200;
+    top: 100%;
+    right: 0;
+}
+.buttonDrops3 {
+    display: none;
+    position: absolute;
+    background-color: darkblue;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px black;
+    z-index: 200;
+    top: 100%;
+    right: 0;
+}
+
+.buttonDrops .drop1 {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: ease-in-out 0.3s;
+}
+.buttonDrops2 .drop2 {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: ease-in-out 0.5s;
+}
+.buttonDrops3 .drop3 {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: ease-in-out 0.5s;
+}
+
+.buttonDrops .drop1:hover {background-color: blue;}
+
+.menu:hover .buttonDrops {display: block;}
+
+.menu:hover .buttonDrop {background-color: blue;}
+
+.buttonDrops2 .drop2:hover {background-color: blue;}
+
+.menu:hover .buttonDrops2 {display: block;}
+
+.menu:hover .buttonDrop2 {background-color: blue;}
+
+.buttonDrops3 .drop3:hover {background-color: blue;}
+
+.menu:hover .buttonDrops3 {display: block;}
+
+.menu:hover .buttonDrop3 {background-color: blue;}
+@media only screen and (max-device-width: 640px) and (min-device-width: 300px){
+    .navigation{
+        display: block;
+
+    }
+
+}
+
+.moreButton{
+    border-radius: 20px;
+    background:transparent;
+    border:none;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    padding: 5px;
+    font-size:30px;
+    margin-top: 0.5%;
+    margin-left: 62%;
+    transition: ease-in-out 0.5s;
+    box-shadow: 0 5px lightcyan;
+}
+.moreButton:hover{
+    color:lightblue;
+}
+.moreButton:active{
+    box-shadow: 0 5px lightblue;
+    color:lightblue;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.moreButton:after{
+    animation: spin 1s linear infinite;
+}

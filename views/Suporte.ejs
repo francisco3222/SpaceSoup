@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Suporte - Space Soup</title>
+    <link rel="stylesheet" href="./CSS/Menu.css">
+    <link rel="stylesheet" href="./CSS/Suporte.css">
+    <link rel="stylesheet" href="./CSS/Footer.css">
+    <title>Suporte</title>
+</head>
+<body>
+<header>
+    <div>
+        <nav class="navigation">
+            <img align="left" id = "Logo" src="./images/Space%20Soup.png" alt="Soupy-Logo">
+            <img align="left" id = "nome" src="./images/preview.png" alt="Soupy-Logo">
+            <div align="right" class="menu">
+                <a href="SpaceSoupThings">
+                    <button class="buttonDrop">Home</button>
+                </a>
+            </div>
+            <div align="right" class="menu">
+                <button class="buttonDrop">Curiosidades</button>
+                <div class="buttonDrops">
+                    <a class="drop1" href="Planetas">Planetas</a>
+                    <a class="drop1"href="Estrelas">Estrelas</a>
+                    <a class="drop1"href="Outros">Outras</a>
+                </div>
+            </div>
+            <div align="right" class="menu">
+                <button class="buttonDrop">Sobre Nós</button>
+                <div class="buttonDrops">v
+                    <a class="drop1" href="Desenvolvedores">Desenvolvedores</a>
+                    <a class="drop1"href="Suporte">Suporte</a>
+                </div>
+            </div>
+            <div align="right" class="menu">
+                <button class="buttonDrop">Utilizador</button>
+                <div class="buttonDrops">
+                    <a class="drop1" href="Dados">Dados Pessoais</a>
+                    <a class="drop1"href="PaginaInicial">Log Out</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+<h1 id="TITULO">Suporte</h1>
+<p id="texto">Caso tenha encontrado algum problema com o site, ou caso tenha alguma dúvida, pode nos informar, introduzindo o seu Nome,Email, Assunto e posteriormente o seu Problema nas caixas de texto abaixo:</p>
+<div class="Boxes">
+    <section>
+        <form action="https://api.staticforms.xyz/submit" method="post">
+            <input type="hidden" name="accessKey" value="d1076a6f-731e-4a5f-bc0b-60bda2c139d2">
+            <input type="hidden" name="redirectTo" value="http://localhost:3000/MensagemSuporte">
+            <input type="text" name="name" class="suporte" placeholder="Digite aqui o seu Nome" required>
+            <br><br>
+            <input type="email" name="email" class="suporte" placeholder="Digite aqui o seu Email" required>
+            <br><br>
+            <input type="text" name="subject" class="suporte" placeholder="Indique aqui o Assunto" required>
+            <br><br>
+            <textarea type="text" class="suporte" name="message" rows="4" cols="30" placeholder="Problemas/Dúvidas" required></textarea>
+            <button id="button" type="submit">Submeter</button>
+        </form>
+    </section>
+
+</div>
+<div class="footer">
+    <footer>
+        <p>&copy; 2024 - Universidade da Madeira</p>
+    </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,202 @@
+#TITULO{
+    text-align: center;
+    font-size:100px;
+    margin-top: 2%;
+    text-decoration: underline;
+    background-image: linear-gradient(to bottom, red, orange, yellow);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color:black;
+}
+.CoisaEspacial {
+    margin-top:2%;
+}
+.Planeta{
+    width: 600px;
+    height:600px ;
+    margin-left:1%;
+    margin-top: 2%;
+}
+#Star {
+    color:orange;
+    text-align: center;
+    font-size: 70px ;
+    font-style: italic;
+}
+.informacoes{
+    margin:2% 2% 2% 2%;
+    text-align:justify;
+    color:white;
+    font-size:24px;
+}
+.box{
+    margin-top:0.5%;
+    width:auto;
+    margin-left:650px;
+    border-radius: 20px;
+    background-color: black;
+    margin-right: 50px;
+}
+#StarBox{
+    border:3px solid orange;
+}
+.Estrutura_Da_Sol{
+    position: absolute;
+    width:500px ;
+    height: 300px;
+    margin-left:9%;
+    margin-top:1%;
+    border:3px solid orange;
+}
+.label1{
+    position: absolute;
+    margin-top:18%;
+    text-align: center;
+    margin-left:20%;
+    color:white;
+    font-size:18px;
+    border-radius: 10px;
+}
+
+.Estrutura_Da_Sol2{
+    width:500px ;
+    height: 300px;
+    margin-left: 39% ;
+    margin-top:1%;
+    border:3px solid orange;
+}
+.label2{
+    text-align: center;
+    margin-left:76%;
+    margin-top:18%;
+    color:white;
+    font-size:18px;
+}
+
+#Estrela_Neutroes {
+    color:lightskyblue;
+    text-align: center;
+    font-size: 70px ;
+    font-style: italic;
+}
+#NeutroesBox{
+    border:3px solid lightskyblue;
+}
+.Estrutura_Da_Neutroes{
+    position: absolute;
+    width:500px ;
+    height: 300px;
+    margin-left:9%;
+    margin-top:1%;
+    border:3px solid lightskyblue;
+}
+.Estrutura_Da_Neutroes2{
+    width:500px ;
+    height: 300px;
+    margin-left: 39% ;
+    margin-top:1%;
+    border:3px solid lightskyblue;
+}
+#Label1_Neutroes{
+    margin-left:17%;
+}
+.imagem{
+    margin-top: 5%;
+    width: 550px;
+    height: auto;
+    margin-left:1%;
+}
+#Stephenson {
+    color:orangered;
+    text-align: center;
+    font-size: 70px ;
+    font-style: italic;
+}
+#StephensonBox{
+    border:3px solid orangered;
+}
+.Estrutura_Da_Stephenson{
+    position: absolute;
+    width:500px ;
+    height: 300px;
+    margin-left:9%;
+    margin-top:1%;
+    border:3px solid orangered;
+}
+.Estrutura_Da_Stephenson2{
+    width:500px ;
+    height: 300px;
+    margin-left: 39% ;
+    margin-top:1%;
+    border:3px solid orangered;
+}
+#Label1_Stephenson{
+    margin-left:15.5%;
+}
+#Label2_Stephenson{
+    margin-left:73%;
+}
+#Quasi {
+    color:yellow;
+    text-align: center;
+    font-size: 70px ;
+    font-style: italic;
+}
+#QuasiBox{
+    border:3px solid yellow;
+}
+.Estrutura_Da_Quasi{
+    position: absolute;
+    width:500px ;
+    height: 300px;
+    margin-left:9%;
+    margin-top:1%;
+    border:3px solid yellow;
+}
+.Estrutura_Da_Quasi2{
+    width:500px ;
+    height: 300px;
+    margin-left: 39% ;
+    margin-top:1%;
+    border:3px solid yellow;
+}
+#label1_Quasi{
+    margin-left:14.5%;
+}
+#Label2_Stephenson{
+    margin-left:73%;
+}
+@media only screen and (max-device-width: 640px) and (min-device-width: 0px){
+    body{
+        margin:0;
+        padding: 0;
+    }
+
+    .informacoes {
+        font-size: 50px;
+    }
+
+    .imagens{
+        display: none;
+    }
+
+    .imagem{
+        alignment-baseline: top;
+        display:block;
+        width: 100%;
+        height: auto;
+    }
+
+    .box{
+        text-align:left;
+        margin-left:0;
+        width:100%;
+    }
+}
+
+@media only screen and (max-device-width: 1800px) and (min-device-width: 641px){
+    .imagens {
+        display: none;
+    }
+}

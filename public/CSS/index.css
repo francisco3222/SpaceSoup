@@ -1,0 +1,105 @@
+body {
+    background-image:url("../images/backspace.jpg") ;
+}
+.navigation {
+    background-color: darkblue;
+    border-radius: 0 0 30px 30px;
+    padding: 20px;
+    width: auto;
+    overflow:hidden;
+    text-align: right;
+}
+.text {
+    color:white;
+    font-size:20px;
+    margin-left:1%;
+    position:relative;
+}
+.topButton {
+    text-decoration: none;
+    margin-left: 10px;
+    text-align: right;
+    border-radius: 10px;
+    border: 2px solid white;
+    padding: 10px;
+    color: white;
+    font-size: 30px;
+    transition: ease-in-out 0.5s;
+    margin-top: 20px;
+}
+
+.topButton:hover {
+    border-radius: 25px;
+    color: yellow;
+    border: 2px solid yellow;
+    text-decoration: none;
+}
+.topButtonSimple{
+    text-decoration: none;
+    color: white;
+    transition: ease-in-out 0.5s;
+    margin-top: 20px;
+}
+
+.topButtonSimple:hover{
+    color: yellow;
+    text-decoration: none;
+}
+#Login{
+    align-content: center;
+    margin-left: 42.5%;
+    position: absolute;
+}
+#Logo{
+    width:80px ;
+    flex:none;
+}
+
+#nome {
+    width: 274px;
+    flex: none;
+    margin-left: 1%;
+    transition: ease-in-out 1s;
+}
+#TITULO{
+    margin-left:1%;
+    text-align: left;
+    font-size:100px;
+    margin-top: 2%;
+    text-decoration: underline;
+    position: relative;
+    background-image: linear-gradient(to bottom, blue, steelblue, turquoise);
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+    color:black;
+}
+
+#subtitulo{
+    margin-left:1%;
+    text-align: center;
+    color:white;
+    margin-top: 3%;
+    font-style: italic;
+    font-size:50px;
+    position:relative;
+}
+#Objetivos{
+    margin-left: 10%;
+    color:white;
+    text-align: left;
+    font-size:36px;
+    font-style: italic;
+}
+.objetivos{
+    margin-left: 11%;
+    color:white;
+    font-size:32px;
+    text-align: left;
+    font-style: italic;
+}
+#galaxia{
+    margin-right:5%;
+    margin-bottom: 5%;
+}

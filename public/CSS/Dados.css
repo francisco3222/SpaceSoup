@@ -1,0 +1,356 @@
+#TITULO {
+    text-align: center;
+    font-size:150px;
+    margin-top: 2%;
+    text-decoration: underline;
+    background-image: linear-gradient(to top, cyan, blue, dodgerblue);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color:black;
+    margin-bottom: 30px;
+}
+.container{
+    display: flex;
+}
+.column{
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid black;
+}
+.input{
+    background-color: white;
+    color:white;
+    text-align: center;
+    display: block;
+    font-size: 30px;
+    width: 100%;
+    border-radius: 5px;
+    border:1px solid white;
+}
+.input2{
+    background-color: white;
+    color:black;
+    text-align: center;
+    display: block;
+    font-size: 30px;
+    width: 100%;
+    border-radius: 5px;
+    border:1px solid white;
+}
+#NaoObrigatorio{
+}
+
+.Dados{
+    position: absolute;
+    margin-top: 0;
+
+}
+.Obrigatorio{
+    text-align: center;
+    color:#00ffff;
+    font-style: italic;
+    font-size:20px;
+}
+.texto {
+    font-size: 30px;
+    text-align: left;
+    margin-top: 0;
+    color:white;
+}
+#display{
+    background-position: center;
+    background-size:cover;
+    width:375px;
+    height:375px;
+    margin-top:5%;
+    margin-left: 5%;
+    position: absolute;
+    border:2px solid white;
+    border-radius: 10px;
+    z-index: 5;
+}
+#input-file{
+    display: none;
+}
+.ButaoImg{
+    cursor: pointer;
+    position: absolute;
+    text-decoration: none;
+    margin-left: 10%;
+    margin-top: 26%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: transparent;
+    color:white;
+    border: 2px solid white;
+    font-size: 20px;
+    transition: ease-in-out 0.5s;
+    z-index: 2;
+
+}
+#InserirDados {
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 10px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: transparent;
+    color:white;
+    border: 2px solid white;
+    font-size: 20px;
+    transition: ease-in-out 0.5s;
+    margin-top: 20px;
+}
+#Butao2{
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 10px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: transparent;
+    color:white;
+    border: 2px solid white;
+    font-size: 20px;
+    transition: ease-in-out 0.5s;
+    margin-top: 20px;
+}
+.pop-up{
+    width: 500px;
+    background-image: linear-gradient(to top,blue, dodgerblue);
+    border-radius: 10px;
+    position: absolute;
+    top:0;
+    border:1px solid black;
+    left:50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    text-align: center;
+    padding:0 30px 30px;
+    visibility: hidden;
+    transition: transform 0.4s,top 0.4s;
+}
+.pop-up2{
+    width: 500px;
+    background-image: linear-gradient(to top,blue, dodgerblue);
+    border-radius: 10px;
+    position: absolute;
+    top:0;
+    border:1px solid black;
+    left:50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    text-align: center;
+    padding:0 30px 30px;
+    visibility: hidden;
+    transition: transform 0.4s,top 0.4s;
+}
+.open-popup{
+    visibility: visible;
+    top:50%;
+    transform: translate(-50%,-50%) scale(1);
+}
+.open-popup2{
+    visibility: visible;
+    top:50%;
+    transform: translate(-50%,-50%) scale(1);
+}
+.pop-up2 img{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+.pop-up img{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+h1{
+    margin-top: 1px;
+    color:black;
+    text-align: center;
+}
+.dropdown-group{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    margin:auto;
+}
+select{
+    width: 100%;
+    min-width: 15ch;
+    max-width: 50ch;
+    border:1px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    background-color: white;
+    line-height:1.1;
+    background-image:linear-gradient(to top, white, white 33%); ;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.2);
+}
+#Cancelar{
+    padding: 5px 10px;
+    margin-right: 2%;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #999;
+}
+#Cancelar:hover{
+    background-color:darkred;
+}
+#Cancelar:active{
+    background-color: #650000;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+#Cancelar2{
+    padding: 5px 10px;
+    margin-right: 2%;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #999;
+}
+#Cancelar:hover{
+    background-color:darkred;
+}
+#Cancelar:active{
+    background-color: #650000;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+#Confirmar{
+    padding: 5px 10px;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #999;
+}
+#Confirmar:hover{
+    background-color: #3e8e41;
+}
+#Confirmar:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#Confirmar2{
+    padding: 5px 10px;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #999;
+}
+#Confirmar2:hover{
+    background-color: #3e8e41;
+}
+#Confirmar2:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#utilizador{
+    width: 300px;
+    height: 300px;
+    border:2px solid white;
+}
+#InserirDados:hover {
+    border-radius: 25px;
+    color: lightskyblue ;
+    border: 2px solid lightskyblue;
+    text-decoration: none;
+}
+#Butao2:hover {
+    border-radius: 25px;
+    color: lightskyblue ;
+    border: 2px solid lightskyblue;
+    text-decoration: none;
+}
+.ButaoImg:hover{
+    border-radius: 25px;
+    color: lightskyblue ;
+    border: 2px solid lightskyblue;
+    text-decoration: none;
+}
+
+@media only screen and (max-device-width: 640px) and (min-device-width: 0px){
+    .texto {
+        font-size: 100px;
+    }
+    .ButaoImg{
+        margin-top:400px;
+        margin-left:130px;
+    }
+    #ImagemContainer{
+        position: absolute;
+        margin-left: 30%
+    }
+    .column{
+        flex: none;
+    }
+    #Dados{
+        margin-top:175%;
+        margin-right: 10%;
+    }
+    .footer{
+        margin-top:100%
+    }
+    .Dados{
+        margin-top: 50%;
+        margin-left:10%;
+
+    }
+    .pop-up h1{display: none;
+    }
+    #Pais1{
+        margin-top: 5%;
+        font-size: 30px;
+    }
+    #Cidade1{
+        font-size: 30px;
+    }
+    #Cancelar{
+        font-size: 30px;
+        margin-left: 10%;
+    }
+    #Confirmar{
+        font-size: 30px;
+    }
+    #Postal1{
+        font-size: 30px;
+        width: 100%;
+    }
+    .button{
+        font-size: 50px;
+    }
+}

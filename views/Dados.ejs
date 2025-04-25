@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Dados Pessoais - Space Soup</title>
+    <link rel="stylesheet" href="./CSS/Menu.css">
+    <link rel="stylesheet" href="./CSS/Dados.css">
+    <link rel="stylesheet" href="./CSS/Footer.css">
+</head>
+<body>
+<header>
+    <div>
+        <nav class="navigation">
+            <img align="left" id = "Logo" src="./images/Space%20Soup.png" alt="Soupy-Logo">
+            <img align="left" id = "nome" src="./images/preview.png" alt="Soupy-Logo">
+            <div align="right" class="menu">
+                <a href="SpaceSoupThings">
+                    <button class="buttonDrop">Home</button>
+                </a>
+            </div>
+            <div align="right" class="menu">
+                <button class="buttonDrop">Curiosidades</button>
+                <div class="buttonDrops">
+                    <a class="drop1" href="Planetas">Planetas</a>
+                    <a class="drop1"href="Estrelas">Estrelas</a>
+                    <a class="drop1"href="Outros">Outras</a>
+                </div>
+            </div>
+            <div align="right" class="menu">
+                <button class="buttonDrop">Sobre Nós</button>
+                <div class="buttonDrops">
+                    <a class="drop1" href="Desenvolvedores">Desenvolvedores</a>
+                    <a class="drop1"href="Suporte">Suporte</a>
+                </div>
+            </div>
+            <div align="right" class="menu">
+                <button class="buttonDrop">Utilizador</button>
+                <div class="buttonDrops">
+                    <a class="drop1" href="Dados.html">Dados Pessoais</a>
+                    <a class="drop1"href="PaginaInicial">Log Out</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<div class="container-fluid">
+    <div>
+    <h1 id="TITULO">Dados Pessoais</h1>
+    <div class="container">
+        <section class="column">
+            <div id="ImagemContainer">
+                <img src="./images/utilizador.png" id="display">
+                <label class="ButaoImg" for="input-file">Adicionar Imagem</label>
+                <input  type="file" accept="image/png, image/jpg, image/jpeg" name="Adicionar Imagem" id="input-file">
+            </div>
+        </section>
+        <section class="column">
+            <div class="Dados">
+                <div id="Obrigatorio">
+                    <p class="Obrigatorio"><Strong>*Dados Obrigatórios</Strong></p>
+                    <p class="texto">
+                        <label>
+                            <Strong>Nome:</Strong>
+                            <input class="input" id="name" type="text" placeholder="*Nome do Utilizador*" name="nome" disabled><br><br>
+                        </label>
+                        <label>
+                            <Strong>Email:</Strong>
+                            <input class="input" id="email" placeholder="*Email do Utilizador*" disabled><br><br>
+                        </label>
+                        <label>
+                            <Strong>Password:</Strong>
+                            <input class="input" id="password" placeholder="*Password do Utilizador*" disabled><button id="Butao2" type="submit" onclick="openPopUp2()">Mudar Dados</button><br><br>
+                        </label>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <div class="pop-up2" id="popup2">
+            <img src="./images/Space%20Soup.png">
+            <h1>Insira novamente o seu nome,email e password!</h1>
+            <form class="dropdown-group2">
+                <input type="text" class="input2" id="usernameText"  placeholder="Insira aqui o seu nome:" align="center"><br>
+                <input type="email" class="input2" id="emailText" placeholder="Insira aqui o seu email:" align="center"><br>
+                <input type="password" class="input2" id="passwordText" placeholder="Insira aqui a sua password" align="center">
+            </form>
+            <p>
+                <button id="Cancelar2" type="submit" onclick="closePopUp2()">Cancelar</button>
+                <button id="Confirmar2" type="submit">Confirmar</button>
+            </p>
+        </div>
+        <section class="column">
+            <div class="Dados" id="Dados">
+                <div id="NaoObrigatorio">
+                    <p class="Obrigatorio"><Strong>*Dados Não Obrigatórios</Strong></p>
+                    <p class="texto">
+                        <label>
+                            <Strong>Pais:</Strong>
+                            <input class="input" id="pais" type="text" placeholder="*Pais do Utilizador*" name="pais"disabled><br><br>
+                        </label>
+                        <label>
+                            <Strong>Cidade:</Strong>
+                            <input class="input" id="cidade" placeholder="*Cidade do Utilizador*" name="cidade" disabled><br><br>
+                        </label>
+                        <label>
+                            <Strong>Código-Postal:</Strong>
+                            <input class="input" id="postal" placeholder="*ZipCode do Utilizador*" name="postal" disabled><button id="InserirDados" type="submit" onclick="openPopUp()">Inserir Dados</button><br><br>
+                        </label>
+
+                    </p>
+                </div>
+            </div>
+        </section>
+        <div class="pop-up" id="popup">
+            <img src="./images/Space%20Soup.png">
+            <h1>Seleciona o teu País,Cidade e Código-Postal</h1>
+            <form class="dropdown-group">
+                <select id="Pais1" size="1">
+                    <option value="" selected="selected">Seleciona o teu Pais</option>
+                </select>
+                <select id="Cidade1" size="1">
+                    <option value="" selected="selected">Seleciona a tua Cidade</option>
+                </select>
+                <select id="Postal1" size="1">
+                    <option value="" selected="selected">Seleciona o teu Código</option>
+                </select>
+
+            </form>
+            <p>
+                <button id="Cancelar" type="submit" onclick="closePopUp()">Cancelar</button>
+                <button id="Confirmar" type="submit">Confirmar</button>
+            </p>
+        </div>
+    </div>
+    </div>
+</div>
+    <div class="footer">
+        <footer>
+            <p>&copy; 2024 - Universidade da Madeira</p>
+        </footer>
+    </div>
+<script src="./JS/Dados.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
